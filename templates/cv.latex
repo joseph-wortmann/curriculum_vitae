@@ -13,7 +13,7 @@
 % ---------- Fonts ----------
 \setmainfont{Inter}
 \setsansfont{Inter}
-\setmonofont{Menlo}
+\setmonofont{Latin Modern Mono}
 
 % ---------- Page Layout ----------
 \geometry{
