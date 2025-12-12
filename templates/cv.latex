@@ -60,31 +60,27 @@
 % ---------- Title Block ----------
 \begin{document}
 
+% Name
 {\LARGE \textbf{$author$}}
 
 \vspace{4pt}
 
+% Location (optional)
 $if(location)$
-\textit{$location$} \\
+\textit{$location$}
 $endif$
 
-$if(email)$
-\href{mailto:$email$}{$email$} \\
-$endif$
+\vspace{6pt}
 
-$if(mobile)$
-$mobile$ \\
-$endif$
+% Contact block as a vertical table
+\begin{tabular}{@{}l@{}}
+$if(email)$\href{mailto:$email$}{$email$}\\$endif$
+$if(mobile)$ $mobile$\\$endif$
+$if(linkedin)$\href{$linkedin$}{$linkedin$}\\$endif$
+$if(website)$\href{$website$}{$website$}\\$endif$
+\end{tabular}
 
-$if(linkedin)$
-\href{$linkedin$}{$linkedin$} \\
-$endif$
-
-$if(website)$
-\href{$website$}{$website$} \\
-$endif$
-
-\vspace{1em}
+\vspace{1.2em}
 
 $if(title)$
 {\Large \textbf{$title$}}

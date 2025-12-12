@@ -4,20 +4,14 @@ author: "Joseph Wortmann"
 date: "`date +%Y-%m-%d`"
 geometry: margin=1in
 fontsize: 11pt
-mainfont: "Helvetica"
-sansfont: "Helvetica"
-monofont: "Menlo"
 colorlinks: true
 linkcolor: blue
 urlcolor: blue
----
-# Joseph Wortmann
-
-**Location:** Milton, Florida, United States  
-**Email:** joseph.wortmann@gmail.com
-**Mobile:** +1 (205) 612-3826
-**LinkedIn:** https://www.linkedin.com/in/josephwortmann  
-
+location: "Milton, Florida, United States"
+email: "oseph.wortmann@gmail.com"
+mobile: "+1 (205) 612-3826"
+linkedin: "https://www.linkedin.com/in/josephwortmann"
+template: templates/cv.latex
 ---
 
 ## Professional Summary
