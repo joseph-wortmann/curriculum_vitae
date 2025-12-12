@@ -42,12 +42,6 @@ jobs:
       - name: Create output directory
         run: mkdir -p dist
 
-      - name: Build DOCX
-        run: |
-          pandoc "${{ matrix.cv.file }}" \
-            --standalone \
-            -o "dist/${{ matrix.cv.name }}.docx"
-
       - name: Build PDF
         run: |
           pandoc "${{ matrix.cv.file }}" \

@@ -166,15 +166,6 @@ YourCareUniverse offered cloud-based solutions including patient portals and int
 
 ---
 
-## Publications & Articles (Selected)
-
-- *“What’s Hubbub with WebSub?”* (LinkedIn Article)  
-- *“AppSync: My Object Relational Mapper”* (LinkedIn Article)  
-- *“Syncing AWS AppSync”* (LinkedIn Article)  
-- *“We’re Looking for a Superstar to Run Our DevOps”* (LinkedIn Article)
-
----
-
 ## Recommendations
 
 Professional recommendations from colleagues, clients, and executives are available upon request and can be provided as a separate appendix or portfolio.
