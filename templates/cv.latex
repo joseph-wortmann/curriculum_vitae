@@ -1,0 +1,80 @@
+\documentclass[11pt]{article}
+
+% ---------- Packages ----------
+\usepackage{fontspec}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{parskip}
+
+% ---------- Fonts ----------
+\setmainfont{Inter}
+\setsansfont{Inter}
+\setmonofont{Menlo}
+
+% ---------- Page Layout ----------
+\geometry{
+  letterpaper,
+  margin=1in
+}
+
+\setlength{\parindent}{0pt}
+
+% ---------- Colors ----------
+\definecolor{headercolor}{HTML}{2C3E50}
+\definecolor{linkcolor}{HTML}{1B4F72}
+
+% ---------- Hyperref Settings ----------
+\hypersetup{
+  colorlinks=true,
+  linkcolor=headercolor,
+  urlcolor=linkcolor
+}
+
+% ---------- Section Formatting ----------
+\titleformat{\section}{
+  \large\bfseries\color{headercolor}
+}{}{0em}{}[\titlerule]
+
+\titleformat{\subsection}{
+  \normalsize\bfseries\color{headercolor}
+}{}{0em}{}
+
+% ---------- List Formatting ----------
+\setlist[itemize]{
+  leftmargin=1.2em,
+  topsep=0.2em,
+  itemsep=0.2em
+}
+
+% ---------- Title Block ----------
+\begin{document}
+
+{\LARGE \textbf{$author$}} \\[4pt]
+$if(location)$
+\textit{$location$} \\
+$endif$
+$if(email)$
+\href{mailto:$email$}{$email$} \\
+$endif$
+$if(linkedin)$
+\href{$linkedin$}{$linkedin$} \\
+$endif$
+$if(website)$
+\href{$website$}{$website$} \\
+$endif$
+
+\vspace{1em}
+
+$if(title)$
+{\Large \textbf{$title$}}
+\vspace{1em}
+$endif$
+
+% ---------- Body ----------
+$body$
+
+\end{document}

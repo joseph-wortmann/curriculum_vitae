@@ -1,0 +1,60 @@
+name: Build CVs
+
+on:
+  push:
+    paths:
+      - "cv-*.md"
+      - ".github/workflows/build-cv.yml"
+  workflow_dispatch: {}
+
+jobs:
+  build-cv:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        cv:
+          - name: cto
+            file: CTO.md
+          - name: principal
+            file: PRINCIPAL_ENGINEER.md
+          - name: hybrid
+            file: HYBRID.md
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Pandoc and LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            pandoc \
+            texlive-latex-recommended \
+            texlive-latex-extra \
+            texlive-fonts-recommended
+
+      - name: Create output directory
+        run: mkdir -p dist
+
+      - name: Build DOCX
+        run: |
+          pandoc "${{ matrix.cv.file }}" \
+            --standalone \
+            -o "dist/${{ matrix.cv.name }}.docx"
+
+      - name: Build PDF
+        run: |
+          pandoc "${{ matrix.cv.file }}" \
+            --standalone \
+            --template=templates/cv.latex \
+            --pdf-engine=xelatex \
+            -o "dist/${{ matrix.cv.name }}.pdf"
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: cv-${{ matrix.cv.name }}
+          path: |
+            dist/${{ matrix.cv.name }}.pdf
+            dist/${{ matrix.cv.name }}.docx
