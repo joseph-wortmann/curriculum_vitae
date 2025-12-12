@@ -1,17 +1,17 @@
 ---
 title: "Curriculum Vitae — Principal Engineer / Architect"
 author: "Joseph Wortmann"
-date: "`date +%Y-%m-%d`"
+location: "Milton, Florida, United States"
+email: "joseph.wortmann@gmail.com"
+mobile: "+1 (205) 612-3826"
+linkedin: "https://www.linkedin.com/in/josephwortmann"
 geometry: margin=1in
 fontsize: 11pt
+mainfont: "Inter"
+sansfont: "Inter"
 colorlinks: true
 linkcolor: blue
 urlcolor: blue
-location: "Milton, Florida, United States"
-email: "oseph.wortmann@gmail.com"
-mobile: "+1 (205) 612-3826"
-linkedin: "https://www.linkedin.com/in/josephwortmann"
-template: templates/cv.latex
 ---
 
 ## Technical Summary

@@ -61,24 +61,22 @@
 \begin{document}
 
 % Name
-{\LARGE \textbf{$author$}}
-
-\vspace{4pt}
+{\LARGE \textbf{$author$}}\\[4pt]
 
 % Location (optional)
 $if(location)$
-\textit{$location$}
+\textit{$location$}\\[4pt]
 $endif$
 
-\vspace{6pt}
-
 % Contact block as a vertical table
+$if(email)$
 \begin{tabular}{@{}l@{}}
 $if(email)$\href{mailto:$email$}{$email$}\\$endif$
 $if(mobile)$ $mobile$\\$endif$
 $if(linkedin)$\href{$linkedin$}{$linkedin$}\\$endif$
 $if(website)$\href{$website$}{$website$}\\$endif$
 \end{tabular}
+$endif$
 
 \vspace{1.2em}
 
@@ -86,6 +84,7 @@ $if(title)$
 {\Large \textbf{$title$}}
 \vspace{1em}
 $endif$
+
 % ---------- Body ----------
 $body$
 
