@@ -1,3 +1,16 @@
+---
+title: "Curriculum Vitae — Executive / CTO"
+author: "Joseph Wortmann"
+date: "`date +%Y-%m-%d`"
+geometry: margin=1in
+fontsize: 11pt
+mainfont: "Helvetica"
+sansfont: "Helvetica"
+monofont: "Menlo"
+colorlinks: true
+linkcolor: blue
+urlcolor: blue
+---
 # Joseph Wortmann
 
 **Location:** Milton, Florida, United States  
