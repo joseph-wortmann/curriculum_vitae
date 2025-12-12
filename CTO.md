@@ -94,7 +94,7 @@ IllumiCare provides clinical decision-support tools embedded in physician workfl
 YourCareUniverse offered cloud-based solutions including patient portals and interfacing services.
 
 - Led operations for YourCareUniverse, with responsibility for delivery, support, and operational excellence.
-- Oversaw YourCareLink, a cloud-based managed interfacing service and early healthcare integration platform.
+- Created and oversaw YourCareLink, a cloud-based managed interfacing service and early healthcare integration platform.
 - Partnered closely with product, engineering, and sales teams to align operational capabilities with growth goals.
 
 ---
@@ -106,6 +106,7 @@ YourCareUniverse offered cloud-based solutions including patient portals and int
 - Led sales for enterprise medical imaging and clinical document management solutions in the Central region.
 - Developed and managed strategic relationships, including a key partnership with Dell’s UCA effort.
 - Translated technical capabilities into business value narratives for health system customers.
+- Closed the largest Vendor Neutral Archive (VNA) deal in industry history at the time.
 
 ---
 
@@ -151,7 +152,6 @@ YourCareUniverse offered cloud-based solutions including patient portals and int
 *BS*  
 1987 – 1991  
 - Graduated in top 5% of class.  
-- Activities: G4, Band, Genesis, Navigators.
 
 ---
 

@@ -32,7 +32,7 @@ Hybrid CTO / Principal Engineer with a rare combination of deep hands-on enginee
 ## Experience
 
 ### Co-Founder, CEO, CTO — ReliQuery.io  
-**ReliQuery.io** · Florida, United States  
+**ReliQuery.io** · Milton, Florida, United States  
 **Feb 2024 – Present**
 
 ReliQuery.io is a secure Python Private Package Index and artifact firewall designed for engineering organizations that need to control and secure their software supply chain.
@@ -104,6 +104,8 @@ YourCareUniverse (a MEDHOST subsidiary) offered cloud-based healthcare engagemen
 - Oversaw operations for cloud-based patient engagement and integration products.
 - Partnered with engineering and product teams to deliver reliable, scalable services.
 - Balanced operational stability with the need for rapid feature delivery and evolution.
+- Created, designed and operated YourCareLink, a managed interfacing service and early healthcare integration platform.
+- Took three failing service business units and turned them into a profitable division within two years.
 
 ---
 
@@ -113,6 +115,8 @@ YourCareUniverse (a MEDHOST subsidiary) offered cloud-based healthcare engagemen
 
 - Used deep technical and domain knowledge to support enterprise sales of medical imaging and clinical document solutions.
 - Collaborated with partners (including Dell) to position technically sound, scalable solutions for health systems.
+- Closed the largest Vendor Neutral Archive (VNA) deal in industry history at the time.
+- Transitioned Sales, Service and Marketing from Salesforce to Microsoft Dynamics CRM, improving reporting and pipeline management while saving the company $72,000 a year.
 
 ---
 
@@ -153,5 +157,5 @@ These roles collectively establish a long-standing track record of building heal
 - **Leadership & Delivery:** CTO, VP, co-founder roles; building and leading high-performance engineering teams.
 - **Architecture:** Cloud-native, serverless, event-driven systems, integration platforms, secure artifact repositories.
 - **Cloud & DevOps:** AWS, Terraform, Packer, Linux, CI/CD, infrastructure-as-code, observability.
-- **Languages & Tools:** Rust, Go, Python, Objective-C, enterprise software patterns, application architecture.
-- **Domains:** Healthcare IT, HL7, clinical imaging and workflow, SaaS, integration platforms.
+- **Languages & Tools:** Rust, Go, Python, Objective-C, Java, C++, C, enterprise software patterns, application architecture.
+- **Domains:** Healthcare IT, HL7, clinical imaging and workflow (DICOM), SaaS, integration platforms.

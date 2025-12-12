@@ -23,10 +23,10 @@ Principal Engineer / Architect with 30+ years of experience designing and delive
 ## Core Technical Competencies
 
 - **Languages:** Rust, Go, Python, Objective-C, C-family, SQL  
-- **Cloud:** AWS (Lambda, API Gateway, S3, DynamoDB, SNS/SQS, ECS/Fargate, CloudWatch, Cognito)  
+- **Cloud:** AWS (Lambda, API Gateway, AppSync, S3, DynamoDB, SNS/SQS, ECS/Fargate, CloudWatch, Cognito)  
 - **Architecture:** Serverless, event-driven systems, microservices, WASM plugin architectures, MCP-based tooling ecosystems  
 - **Infra/DevOps:** Terraform/OpenTofu, Packer, Linux, containerization (Docker), CI/CD automation  
-- **Security:** Software supply-chain hardening, artifact signature & provenance, CVE/CVSS risk gating, OIDC/OAuth2, secure multi-tenancy  
+- **Security:** System hardening, Software supply-chain hardening, artifact signature & provenance, CVE/CVSS risk gating, OIDC/OAuth2, secure multi-tenancy  
 - **Domains:** Healthcare integration (HL7, FHIR, imaging/DICOM), clinical workflow systems, SaaS platforms, high-availability enterprise systems  
 - **Practices:** Systems design, performance engineering, developer experience (DX), high-leverage library design, refactoring and modernization
 
@@ -38,7 +38,7 @@ Principal Engineer / Architect with 30+ years of experience designing and delive
 - Designed and built a private PyPI-compatible index with multi-tenant isolation and secure artifact storage.  
 - Implemented upstream proxying with real-time risk evaluation of OSS packages.  
 - Added CVSS-based enforceable security policies and curated allow/deny lists controlling ingestion of external dependencies.  
-- Built deterministic indexing, version metadata handling, and signature/parsing tooling in Rust.  
+- Built wire-speed secure website proxying in Rust.  
 - Created high-performance publishing, retrieval, and caching workflows supporting millions of artifacts.
 
 ### **EchoStream iPaaS — Cloud-Native Integration Platform (2022–Present)**
@@ -46,12 +46,14 @@ Principal Engineer / Architect with 30+ years of experience designing and delive
 - Built a composable framework for event-driven and scheduled integrations with formal lifecycle management.  
 - Implemented IaC provisioning (OpenTofu/Terraform) supporting multi-tenant workloads and environment isolation.  
 - Established patterns for secure connector development, retries, observability, and multi-step orchestration.
+- Built a Terraform provider for managing EchoStream resources programmatically in Golang.
 
 ### **OrthoCheck — Bayesian Network Clinical Decision Support (2024–2025)**
 - Architected a Bayesian Network engine for orthopedic clinical assessment.  
 - Implemented evidence propagation and inference logic using AWS serverless components.  
 - Designed decision graphs and question-selection heuristics to optimize clinical workflows.  
 - Integrated BN outputs with provider profiles and operational analytics.
+- Created a provider profile CI/CD engine for building and deploying to production in Cloudfront/S3/Lambda.
 
 ### **MCP Tooling Ecosystem — Secure WASM Plugin Architecture (2023–Present)**
 *(personal + professional experimentation)*  
@@ -74,7 +76,7 @@ Across Emageon, Awarix, IllumiCare, and YourCareUniverse:
 - Architected a secure, multi-tenant Python package index with full PyPI compatibility.  
 - Designed an artifact firewall enabling organizations to control OSS ingestion through policy-based risk controls.  
 - Implemented upstream proxying and deterministic caching layers for high-speed artifact distribution.  
-- Built Rust-based indexing and metadata pipelines supporting reproducible builds and secure publishing workflows.  
+- Built wire-speed secure website proxying in Rust.  
 - Designed fine-grained authorization and auditability for enterprise-grade compliance.
 
 ---
