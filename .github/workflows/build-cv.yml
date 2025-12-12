@@ -3,7 +3,7 @@ name: Build CVs
 on:
   push:
     paths:
-      - "cv-*.md"
+      - "*.md"
       - ".github/workflows/build-cv.yml"
   workflow_dispatch: {}
 
