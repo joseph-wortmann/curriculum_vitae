@@ -50,6 +50,10 @@
   itemsep=0.2em
 }
 
+% ---------- Tight list fix for Pandoc ----------
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
 % ---------- Title Block ----------
 \begin{document}
 
