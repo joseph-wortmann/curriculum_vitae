@@ -54,6 +54,9 @@
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
+% ---------- No section numbering (CVs don't need 1.2.3) ----------
+\setcounter{secnumdepth}{0}
+
 % ---------- Title Block ----------
 \begin{document}
 
