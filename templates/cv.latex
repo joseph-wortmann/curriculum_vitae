@@ -60,16 +60,26 @@
 % ---------- Title Block ----------
 \begin{document}
 
-{\LARGE \textbf{$author$}} \\[4pt]
+{\LARGE \textbf{$author$}}
+
+\vspace{4pt}
+
 $if(location)$
 \textit{$location$} \\
 $endif$
+
 $if(email)$
 \href{mailto:$email$}{$email$} \\
 $endif$
+
+$if(mobile)$
+$mobile$ \\
+$endif$
+
 $if(linkedin)$
 \href{$linkedin$}{$linkedin$} \\
 $endif$
+
 $if(website)$
 \href{$website$}{$website$} \\
 $endif$
@@ -80,7 +90,6 @@ $if(title)$
 {\Large \textbf{$title$}}
 \vspace{1em}
 $endif$
-
 % ---------- Body ----------
 $body$
 
