@@ -8,7 +8,6 @@
 \usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{xcolor}
-\usepackage{parskip}
 
 % ---------- Fonts ----------
 \setmainfont{Inter}
@@ -22,6 +21,9 @@
 }
 
 \setlength{\parindent}{0pt}
+
+% ---------- Paragraph spacing (tight resume) ----------
+\setlength{\parskip}{0pt}
 
 % ---------- Colors ----------
 \definecolor{headercolor}{HTML}{2C3E50}
@@ -42,6 +44,17 @@
 \titleformat{\subsection}{
   \normalsize\bfseries\color{headercolor}
 }{}{0em}{}
+
+% ---------- Tight section spacing ----------
+\titlespacing*{\section}
+  {0pt}    % left
+  {0.6em}  % space before
+  {0.4em}  % space after
+
+\titlespacing*{\subsection}
+  {0pt}
+  {0.4em}
+  {0.2em}
 
 % ---------- List Formatting ----------
 \setlist[itemize]{
