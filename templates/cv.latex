@@ -2,7 +2,6 @@
 
 % ---------- Packages ----------
 \usepackage{fontspec}
-\usepackage{setspace}
 \usepackage{geometry}
 \usepackage{titlesec}
 \usepackage{enumitem}
@@ -20,9 +19,8 @@
   margin=1in
 }
 
+% ---------- Tight paragraphs ----------
 \setlength{\parindent}{0pt}
-
-% ---------- Paragraph spacing (tight resume) ----------
 \setlength{\parskip}{0pt}
 
 % ---------- Colors ----------
@@ -45,20 +43,18 @@
   \normalsize\bfseries\color{headercolor}
 }{}{0em}{}
 
-% ---------- Tight section spacing ----------
-\titlespacing*{\section}
-  {0pt}    % left
-  {0.6em}  % space before
-  {0.4em}  % space after
+\titleformat{\subsubsection}{
+  \normalsize\bfseries
+}{}{0em}{}
 
-\titlespacing*{\subsection}
-  {0pt}
-  {0.4em}
-  {0.2em}
+% ---------- SINGLE heading spacing block (tight) ----------
+\titlespacing*{\section}{0pt}{0.25em}{0.10em}
+\titlespacing*{\subsection}{0pt}{0.15em}{0.05em}
+\titlespacing*{\subsubsection}{0pt}{0.10em}{0.05em}
 
-% ---------- List Formatting ----------
+% ---------- Ultra-tight bullets ----------
 \setlist[itemize]{
-  leftmargin=1.2em,
+  leftmargin=1.1em,
   topsep=0pt,
   partopsep=0pt,
   itemsep=0pt,
@@ -71,21 +67,21 @@
   \setlength{\parskip}{0pt}%
   \setlength{\parsep}{0pt}}
 
-% ---------- No section numbering (CVs don't need 1.2.3) ----------
+% ---------- No section numbering ----------
 \setcounter{secnumdepth}{0}
 
-% ---------- Title Block ----------
+% ---------- Document ----------
 \begin{document}
 
-% Name
-{\LARGE \textbf{$author$}}\\[4pt]
+% Name (tight)
+{\LARGE \textbf{$author$}}\\[-2pt]
 
-% Location (optional)
+% Location (optional) (tight)
 $if(location)$
-\textit{$location$}\\[4pt]
+\textit{$location$}\\[-2pt]
 $endif$
 
-% Contact block as a vertical table
+% Contact block (tight)
 $if(email)$
 \begin{tabular}{@{}l@{}}
 $if(email)$\href{mailto:$email$}{$email$}\\$endif$
@@ -95,14 +91,14 @@ $if(website)$\href{$website$}{$website$}\\$endif$
 \end{tabular}
 $endif$
 
-\vspace{1.2em}
+\vspace{0.35em}
 
 $if(title)$
-{\Large \textbf{$title$}}
-\vspace{1em}
+{\Large \textbf{$title$}}\\[-2pt]
 $endif$
 
-% ---------- Body ----------
+\vspace{0.35em}
+
 $body$
 
 \end{document}
