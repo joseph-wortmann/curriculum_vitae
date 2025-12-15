@@ -21,6 +21,8 @@ jobs:
             file: PRINCIPAL_ENGINEER.md
           - name: hybrid
             file: HYBRID.md
+          - name: federal
+            file: FEDERAL.md
 
     steps:
       - name: Checkout repository
