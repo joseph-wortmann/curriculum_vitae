@@ -46,8 +46,10 @@
 % ---------- List Formatting ----------
 \setlist[itemize]{
   leftmargin=1.2em,
-  topsep=0.2em,
-  itemsep=0.2em
+  topsep=0pt,
+  partopsep=0pt,
+  itemsep=0pt,
+  parsep=0pt
 }
 
 % ---------- Tight list fix for Pandoc ----------
