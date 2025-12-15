@@ -11,9 +11,7 @@ Milton, Florida, United States
 ---
 
 ## Professional Summary
-- Senior technology executive with 30+ years of experience leading the design and delivery of complex information systems. 
-- Extensive background in enterprise architecture, cloud-native platforms, cybersecurity, healthcare IT, and large-scale systems integration. 
-- Proven ability to lead technical teams, modernize mission-critical systems, and deliver secure, compliant solutions in regulated environments.
+Senior technology executive with 30+ years of experience leading the design and delivery of complex information systems.  Extensive background in enterprise architecture, cloud-native platforms, cybersecurity, healthcare IT, and large-scale systems integration.  Proven ability to lead technical teams, modernize mission-critical systems, and deliver secure, compliant solutions in regulated environments.
 
 ---
 
@@ -63,7 +61,7 @@ Birmingham, AL • Jan 2016 – May 2017 • 40+ hrs/week
 ---
 
 ### Vice President, Operations — YourCareUniverse (MEDHOST)  
-United States • Sep 2013 – Dec 2015 • 40+ hrs/week  
+Nashville, TN • Sep 2013 – Dec 2015 • 40+ hrs/week  
 - Directed operational and technical execution of cloud-based patient engagement platforms.  
 - Oversaw integration initiatives connecting healthcare systems and data sources.  
 - Improved platform reliability, scalability, and operational processes.  

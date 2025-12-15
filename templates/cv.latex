@@ -11,7 +11,7 @@
 % ---------- Fonts ----------
 \setmainfont{Inter}
 \setsansfont{Inter}
-\setmonofont{Latin Modern Mono}
+\setmonofont{lmmono10-regular.otf}
 
 % ---------- Page Layout ----------
 \geometry{
